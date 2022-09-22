@@ -1,0 +1,241 @@
+#encabezado {
+    background-image: linear-gradient(10deg, yellow, rgb(36, 36, 36), rgb(36, 36, 36), yellow);
+    color: rgba(255, 136, 0, 0.877) !important;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+#navtext {
+    color: rgba(255, 136, 0, 0.877);
+    font-size: larger !important;
+}
+.nav-pills{
+    --bs-nav-pills-link-active-bg: #425F4D;
+
+}
+#imgPortada {
+    margin-left: -35%;
+    margin-top: 1%;
+    width: 25%;
+    height: 25%;
+    animation-name: index_banner;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+}
+
+@keyframes index_banner {
+    0% {
+        transform: translate(135vw);
+    }
+}
+
+#banner {
+    background-image: url(../assets/images/inicioBackImg.jpg);
+    width: 99vw;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+#quienesSomos,#porque,#herramientasUtiles {
+
+    border-radius: 10%;
+    background-color: rgba(136, 112, 112, 0.295);
+    /* height: 800px; */
+    font-size: 1.5rem;
+    font-family: 'DynaPuff', cursive;
+    text-align: justify;
+}
+
+
+
+#quienesSomos:hover,
+#porque:hover,
+#herramientasUtiles:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 10px 20px rgb(190, 162, 162);
+}
+
+footer {
+    background-image: linear-gradient(10deg, yellow, rgb(36, 36, 36), rgb(36, 36, 36), yellow);
+    position: sticky;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+    overflow-x: hidden;
+    z-index: 10
+
+}
+
+#posfoot{
+    position: absolute;
+}
+#form_cont {
+    background-color: antiquewhite;
+}
+
+#cont_body {
+    height: 100vh;
+}
+
+
+
+
+/* pagina quienes somos.------------------------------------------ */
+
+#qsom,
+#qmis,
+#qvis,
+#qaquien {
+
+    /* width: 80%; */
+    background-color: rgba(9, 117, 9, 0.363);
+    /* height: 250px; */
+    text-align: justify;
+    font-family: 'Aboreto', cursive;
+}
+
+/* pagina blog---------------------------------------------------------------------- */
+
+#B_SubT{
+    background-image:url("../assets/images/Blog_img.jpg");
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    font-family: 'DynaPuff', cursive;
+    color: rgb(226, 168, 177);
+    margin-bottom: 30px;
+}
+
+#BlogContenido{
+    font-family: 'DynaPuff', cursive;
+    text-align: justify;
+    
+    
+}
+
+.Card_custom{
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+.anchor{
+    text-decoration: none;
+}
+
+/* estilo herramientas----------------------------------------------------------------------------------- */
+
+
+#H_Titulo{
+    text-align: justify;
+    font-size: 1.5rem;
+    background-image: url(../assets/images/Herramientas_digitalaes.jpg);
+}
+#H_TituloCont{
+    font-family: 'DynaPuff', cursive;
+    font-size:3rem;
+    text-align: center;
+}
+
+.imagenes{
+    border-radius: 50%;
+}
+
+.H_descarga{
+    text-decoration: none;
+    color: green;
+    font-style: italic;
+    font-weight: bolder;
+}
+.H_subT{
+    font-family: 'DynaPuff', cursive;
+    text-align: justify;
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 5%;}
+
+    .H_subT:hover{
+        transform: scale(1.05);
+        box-shadow: 5px 10px 20px rgb(190, 162, 162);
+
+        
+    }
+   #rotacionInsred:hover  #imgHerr1{
+    animation-name: imagen_herramientas;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+   }
+   #rotacionInsIP:hover  #imgHerr2{
+    animation-name: imagen_herramientas;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+   }
+   #rotacionInsAV:hover  #imgHerr3{
+    animation-name: imagen_herramientas;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+   }
+   #rotacionInsPtch:hover  #imgHerr4{
+    animation-name: imagen_herramientas;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+   }
+   #rotacionInsServ:hover  #imgHerr5{
+    animation-name: imagen_herramientas;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+   }
+
+    @keyframes imagen_herramientas {
+        0% {
+            transform: rotate(360deg);
+        }
+    }
+
+
+
+
+/* medias querys................................................................. */
+@media screen and (max-width: 650px) {
+    .h_logo {
+        display: none;
+    }
+
+
+    #iframe{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    
+    }
+    #video{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #iframe{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    
+    }
+    #video{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+}
