@@ -7,7 +7,7 @@
     background-image: url(../assets/images/Herramientas_digitalaes.jpg);
 }
 #H_TituloCont{
-    font-family: 'DynaPuff', cursive;
+    font-family: $TipoCont;
     font-size:3rem;
     text-align: center;
 }
@@ -23,7 +23,7 @@
     font-weight: bolder;
 }
 .H_subT{
-    font-family: 'DynaPuff', cursive;
+    font-family: $TipoCont;
     text-align: justify;
     background-color: rgba(128, 128, 128, 0.185);
     border-radius: 5%;}
