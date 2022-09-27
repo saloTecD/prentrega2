@@ -1,3 +1,4 @@
+
 #encabezado {
     background-image: linear-gradient(10deg, yellow, rgb(36, 36, 36), rgb(36, 36, 36), yellow);
     color: rgba(255, 136, 0, 0.877) !important;
@@ -11,7 +12,7 @@
         font-size: larger !important;
     }
     .nav-pills{
-        --bs-nav-pills-link-active-bg: #425F4D;
+        --bs-nav-pills-link-active-bg:$SelectNav;
     
     }
     #imgPortada {

@@ -1,67 +1,55 @@
 /* estilo herramientas----------------------------------------------------------------------------------- */
 
 
-#H_Titulo{
+#H_Titulo {
     text-align: justify;
     font-size: 1.5rem;
     background-image: url(../assets/images/Herramientas_digitalaes.jpg);
 }
-#H_TituloCont{
+
+#H_TituloCont {
     font-family: $TipoCont;
-    font-size:3rem;
+    font-size: 3rem;
     text-align: center;
 }
 
-.imagenes{
+.imagenes {
     border-radius: 50%;
 }
 
-.H_descarga{
+.H_descarga {
     text-decoration: none;
     color: green;
     font-style: italic;
     font-weight: bolder;
 }
-.H_subT{
+
+.H_subT {
     font-family: $TipoCont;
     text-align: justify;
     background-color: rgba(128, 128, 128, 0.185);
-    border-radius: 5%;}
+    border-radius: 5%;
 
-    .H_subT:hover{
+    &:hover {
         transform: scale(1.05);
         box-shadow: 5px 10px 20px rgb(190, 162, 162);
 
-        
-    }
-   #rotacionInsred:hover  #imgHerr1{
-    animation-name: imagen_herramientas;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-   }
-   #rotacionInsIP:hover  #imgHerr2{
-    animation-name: imagen_herramientas;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-   }
-   #rotacionInsAV:hover  #imgHerr3{
-    animation-name: imagen_herramientas;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-   }
-   #rotacionInsPtch:hover  #imgHerr4{
-    animation-name: imagen_herramientas;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-   }
-   #rotacionInsServ:hover  #imgHerr5{
-    animation-name: imagen_herramientas;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-   }
 
-    @keyframes imagen_herramientas {
-        0% {
-            transform: rotate(360deg);
-        }
     }
+}
+
+#rotacionInsred:hover #imgHerr1,
+#rotacionInsIP:hover #imgHerr2,
+#rotacionInsAV:hover #imgHerr3,
+#rotacionInsPtch:hover #imgHerr4, #rotacionInsServ:hover #imgHerr5{
+    animation-name: imagen_herramientas;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+}
+
+
+@keyframes imagen_herramientas {
+    0% {
+        transform: rotate(360deg);
+    }
+}

@@ -10,7 +10,7 @@
   font-size: larger !important; }
 
 .nav-pills {
-  --bs-nav-pills-link-active-bg: #425F4D; }
+  --bs-nav-pills-link-active-bg:$SelectNav; }
 
 #imgPortada {
   margin-left: -35%;
@@ -40,7 +40,7 @@ footer {
   bottom: 0;
   height: 5vh;
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
   z-index: 10; }
 
 /* pagina blog---------------------------------------------------------------------- */
@@ -90,32 +90,14 @@ footer {
   text-align: justify;
   background-color: rgba(128, 128, 128, 0.185);
   border-radius: 5%; }
+  .H_subT:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 10px 20px #bea2a2; }
 
-.H_subT:hover {
-  transform: scale(1.05);
-  box-shadow: 5px 10px 20px #bea2a2; }
-
-#rotacionInsred:hover #imgHerr1 {
-  animation-name: imagen_herramientas;
-  animation-timing-function: ease-in;
-  animation-duration: 3s; }
-
-#rotacionInsIP:hover #imgHerr2 {
-  animation-name: imagen_herramientas;
-  animation-timing-function: ease-in;
-  animation-duration: 3s; }
-
-#rotacionInsAV:hover #imgHerr3 {
-  animation-name: imagen_herramientas;
-  animation-timing-function: ease-in;
-  animation-duration: 3s; }
-
-#rotacionInsPtch:hover #imgHerr4 {
-  animation-name: imagen_herramientas;
-  animation-timing-function: ease-in;
-  animation-duration: 3s; }
-
-#rotacionInsServ:hover #imgHerr5 {
+#rotacionInsred:hover #imgHerr1,
+#rotacionInsIP:hover #imgHerr2,
+#rotacionInsAV:hover #imgHerr3,
+#rotacionInsPtch:hover #imgHerr4, #rotacionInsServ:hover #imgHerr5 {
   animation-name: imagen_herramientas;
   animation-timing-function: ease-in;
   animation-duration: 3s; }
