@@ -1,0 +1,42 @@
+#encabezado {
+    background-image: linear-gradient(10deg, yellow, rgb(36, 36, 36), rgb(36, 36, 36), yellow);
+    color: rgba(255, 136, 0, 0.877) !important;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    }
+
+    #navtext {
+        color: rgba(255, 136, 0, 0.877);
+        font-size: larger !important;
+    }
+    .nav-pills{
+        --bs-nav-pills-link-active-bg: #425F4D;
+    
+    }
+    #imgPortada {
+        margin-left: -35%;
+        margin-top: 1%;
+        width: 25%;
+        height: 25%;
+        animation-name: index_banner;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 10s;
+    }
+    
+    @keyframes index_banner {
+        0% {
+            transform: translate(135vw);
+        }
+    }
+    
+    #banner {
+        background-image: url(../assets/images/inicioBackImg.jpg);
+        width: 99vw;
+        height: 100%;
+        overflow: hidden;
+    
+    }
+    
+    

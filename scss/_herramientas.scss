@@ -1,0 +1,67 @@
+/* estilo herramientas----------------------------------------------------------------------------------- */
+
+
+#H_Titulo{
+    text-align: justify;
+    font-size: 1.5rem;
+    background-image: url(../assets/images/Herramientas_digitalaes.jpg);
+}
+#H_TituloCont{
+    font-family: 'DynaPuff', cursive;
+    font-size:3rem;
+    text-align: center;
+}
+
+.imagenes{
+    border-radius: 50%;
+}
+
+.H_descarga{
+    text-decoration: none;
+    color: green;
+    font-style: italic;
+    font-weight: bolder;
+}
+.H_subT{
+    font-family: 'DynaPuff', cursive;
+    text-align: justify;
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 5%;}
+
+    .H_subT:hover{
+        transform: scale(1.05);
+        box-shadow: 5px 10px 20px rgb(190, 162, 162);
+
+        
+    }
+   #rotacionInsred:hover  #imgHerr1{
+    animation-name: imagen_herramientas;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+   }
+   #rotacionInsIP:hover  #imgHerr2{
+    animation-name: imagen_herramientas;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+   }
+   #rotacionInsAV:hover  #imgHerr3{
+    animation-name: imagen_herramientas;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+   }
+   #rotacionInsPtch:hover  #imgHerr4{
+    animation-name: imagen_herramientas;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+   }
+   #rotacionInsServ:hover  #imgHerr5{
+    animation-name: imagen_herramientas;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+   }
+
+    @keyframes imagen_herramientas {
+        0% {
+            transform: rotate(360deg);
+        }
+    }
