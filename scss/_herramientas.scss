@@ -20,7 +20,7 @@
 .H_descarga {
     text-decoration: none;
     color: green;
-    font-style: italic;
+    font-style: $TipoContSec;
     font-weight: bolder;
 }
 
@@ -38,14 +38,24 @@
     }
 }
 
-#rotacionInsred:hover #imgHerr1,
-#rotacionInsIP:hover #imgHerr2,
-#rotacionInsAV:hover #imgHerr3,
-#rotacionInsPtch:hover #imgHerr4, #rotacionInsServ:hover #imgHerr5{
-    animation-name: imagen_herramientas;
+#rotacionInsred,#rotacionInsIP,#rotacionInsAV,#rotacionInsPtch,#rotacionInsServ{
+    &:hover{
+        #imgHerr1,#imgHerr2,#imgHerr3,#imgHerr4,#imgHerr5{
+            animation-name: imagen_herramientas;
     animation-timing-function: ease-in;
     animation-duration: 3s;
+        }
+    }
 }
+
+// #rotacionInsred:hover #imgHerr1,
+// #rotacionInsIP:hover #imgHerr2,
+// #rotacionInsAV:hover #imgHerr3,
+// #rotacionInsPtch:hover #imgHerr4, #rotacionInsServ:hover #imgHerr5{
+//     animation-name: imagen_herramientas;
+//     animation-timing-function: ease-in;
+//     animation-duration: 3s;
+// }
 
 
 @keyframes imagen_herramientas {
