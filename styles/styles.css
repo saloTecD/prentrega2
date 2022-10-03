@@ -7,8 +7,8 @@
 
 #encabezado {
   background-image: linear-gradient(10deg, yellow, #242424, #242424, yellow);
-  color: rgba(255, 136, 0, 0.877) !important;
   position: sticky;
+  color: rgba(255, 136, 0, 0.877) !important;
   top: 0;
   z-index: 10; }
 
@@ -42,6 +42,7 @@
 footer {
   background-image: linear-gradient(10deg, yellow, #242424, #242424, yellow);
   position: sticky;
+  color: rgba(255, 136, 0, 0.877) !important;
   left: 0;
   right: 0;
   bottom: 0;

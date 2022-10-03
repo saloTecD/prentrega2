@@ -1,6 +1,5 @@
 footer {
-    background-image: linear-gradient(10deg, map-get($map-colores,"amarillo"), map-get($map-colores,"gris"), map-get($map-colores,"gris"),map-get($map-colores,"amarillo"));
-    position: sticky;
+    @include foot-head;
     left: 0;
     right: 0;
     bottom: 0;
