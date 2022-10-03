@@ -92,7 +92,7 @@ footer {
   border-radius: 5%; }
   .H_subT:hover {
     transform: scale(1.05);
-    box-shadow: 5px 10px 20px #bea2a2; }
+    box-shadow: 5px 10px 20px #e2a8b1; }
 
 #rotacionInsred:hover #imgHerr1, #rotacionInsred:hover #imgHerr2, #rotacionInsred:hover #imgHerr3, #rotacionInsred:hover #imgHerr4, #rotacionInsred:hover #imgHerr5, #rotacionInsIP:hover #imgHerr1, #rotacionInsIP:hover #imgHerr2, #rotacionInsIP:hover #imgHerr3, #rotacionInsIP:hover #imgHerr4, #rotacionInsIP:hover #imgHerr5, #rotacionInsAV:hover #imgHerr1, #rotacionInsAV:hover #imgHerr2, #rotacionInsAV:hover #imgHerr3, #rotacionInsAV:hover #imgHerr4, #rotacionInsAV:hover #imgHerr5, #rotacionInsPtch:hover #imgHerr1, #rotacionInsPtch:hover #imgHerr2, #rotacionInsPtch:hover #imgHerr3, #rotacionInsPtch:hover #imgHerr4, #rotacionInsPtch:hover #imgHerr5, #rotacionInsServ:hover #imgHerr1, #rotacionInsServ:hover #imgHerr2, #rotacionInsServ:hover #imgHerr3, #rotacionInsServ:hover #imgHerr4, #rotacionInsServ:hover #imgHerr5 {
   animation-name: imagen_herramientas;

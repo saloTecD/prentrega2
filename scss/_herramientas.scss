@@ -19,7 +19,7 @@
 
 .H_descarga {
     text-decoration: none;
-    color: green;
+    color:map-get($map-colores,"verde");
     font-style: $TipoContSec;
     font-weight: bolder;
 }
@@ -32,7 +32,7 @@
 
     &:hover {
         transform: scale(1.05);
-        box-shadow: 5px 10px 20px rgb(190, 162, 162);
+        box-shadow: 5px 10px 20px map-get($map-colores,"rosa");
 
 
     }
@@ -47,15 +47,6 @@
         }
     }
 }
-
-// #rotacionInsred:hover #imgHerr1,
-// #rotacionInsIP:hover #imgHerr2,
-// #rotacionInsAV:hover #imgHerr3,
-// #rotacionInsPtch:hover #imgHerr4, #rotacionInsServ:hover #imgHerr5{
-//     animation-name: imagen_herramientas;
-//     animation-timing-function: ease-in;
-//     animation-duration: 3s;
-// }
 
 
 @keyframes imagen_herramientas {

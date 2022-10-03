@@ -6,7 +6,7 @@
     text-align: center;
     align-items: center;
     font-family: $TipoCont;
-    color: rgb(226, 168, 177);
+    color: map-get($map-colores,"rosa");
     margin-bottom: 30px;
 }
 
@@ -20,7 +20,7 @@
 .Card_custom{
     font-family: $TipoCont;
     text-decoration: none;
-    color: darkgoldenrod;
+    color: map-get($map-colores,"dorado");
 }
 .anchor{
     text-decoration: none;

@@ -1,14 +1,14 @@
 
 #encabezado {
-    background-image: linear-gradient(10deg, yellow, rgb(36, 36, 36), rgb(36, 36, 36), yellow);
-    color: rgba(255, 136, 0, 0.877) !important;
+    background-image: linear-gradient(10deg, map-get($map-colores,"amarillo"), map-get($map-colores,"gris"), map-get($map-colores,"gris"),map-get($map-colores,"amarillo"));
+    color: map-get($map-colores,"naranja") !important;
     position: sticky;
     top: 0;
     z-index: 10;
     }
 
     #navtext {
-        color: rgba(255, 136, 0, 0.877);
+        color: map-get($map-colores,"naranja");
         font-size: larger !important;
     }
     .nav-pills{
