@@ -1,3 +1,10 @@
+.estilo-basico, #qsom,
+#qmis,
+#qvis,
+#qaquien {
+  font-family: "DynaPuff", cursive;
+  text-align: justify; }
+
 #encabezado {
   background-image: linear-gradient(10deg, yellow, #242424, #242424, yellow);
   color: rgba(255, 136, 0, 0.877) !important;
@@ -119,11 +126,7 @@ footer {
 #qmis,
 #qvis,
 #qaquien {
-  /* width: 80%; */
-  background-color: rgba(9, 117, 9, 0.363);
-  /* height: 250px; */
-  text-align: justify;
-  font-family: "Aboreto", cursive; }
+  background-color: rgba(9, 117, 9, 0.363); }
 
 #form_cont {
   background-color: antiquewhite; }

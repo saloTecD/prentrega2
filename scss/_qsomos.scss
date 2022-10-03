@@ -4,10 +4,7 @@
 #qmis,
 #qvis,
 #qaquien {
-
-    /* width: 80%; */
+    @extend .estilo-basico;
     background-color: rgba(9, 117, 9, 0.363);
-    /* height: 250px; */
-    text-align: justify;
-    font-family: $TipoContSec;
+    
 }
