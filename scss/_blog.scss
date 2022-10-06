@@ -25,3 +25,20 @@
 .anchor{
     text-decoration: none;
 }
+
+.deco_row_blog{
+    background-image: url("../assets/images/correo_imp.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.Seccion_correo_importante{
+    // background-image: url("../assets/images/correo_imp.jpg");
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+ p+h2{
+    text-align: center;
+ }

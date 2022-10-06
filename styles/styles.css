@@ -76,6 +76,21 @@ footer {
 .anchor {
   text-decoration: none; }
 
+.deco_row_blog {
+  background-image: url("../assets/images/correo_imp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.Seccion_correo_importante {
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-items: center; }
+
+p + h2 {
+  text-align: center; }
+
 /* estilo herramientas----------------------------------------------------------------------------------- */
 #H_Titulo {
   text-align: justify;
@@ -153,7 +168,9 @@ footer {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0; } }
+    bottom: 0; }
+  .Seccion_correo_importante {
+    font-size: 0.8rem; } }
 
 @media screen and (max-width: 800px) {
   #iframe {
