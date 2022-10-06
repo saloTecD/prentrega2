@@ -1,3 +1,4 @@
+/* Uso de Extend---------------------------------------------------------------------- */
 .estilo-basico, #qsom,
 #qmis,
 #qvis,
@@ -5,6 +6,7 @@
   font-family: "DynaPuff", cursive;
   text-align: justify; }
 
+/* header---------------------------------------------------------------------- */
 #encabezado {
   background-image: linear-gradient(10deg, yellow, #242424, #242424, yellow);
   position: sticky;
@@ -39,6 +41,7 @@
   height: 100%;
   overflow: hidden; }
 
+/* footer---------------------------------------------------------------------- */
 footer {
   background-image: linear-gradient(10deg, yellow, #242424, #242424, yellow);
   position: sticky;
@@ -111,10 +114,10 @@ footer {
   0% {
     transform: rotate(360deg); } }
 
+/* estilos index---------------------------------------------------------------------- */
 #quienesSomos, #porque, #herramientasUtiles {
   border-radius: 10%;
   background-color: rgba(136, 112, 112, 0.295);
-  /* height: 800px; */
   font-size: 1.5rem;
   font-family: "DynaPuff", cursive;
   text-align: justify; }
@@ -129,6 +132,7 @@ footer {
 #qaquien {
   background-color: rgba(9, 117, 9, 0.363); }
 
+/* estilo contacto---------------------------------------------------------------------- */
 #form_cont {
   background-color: antiquewhite; }
 
