@@ -36,10 +36,24 @@
     transform: translate(135vw); } }
 
 #banner {
-  background-image: url(../assets/images/inicioBackImg.jpg);
-  width: 99vw;
+  position: relative;
+  width: 80vw;
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#banner::before {
+  content: "";
+  background-image: url(../assets/images/bckindextop.gif);
+  background-size: cover;
+  opacity: 0.9;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; }
 
 /* footer---------------------------------------------------------------------- */
 footer {
@@ -140,6 +154,12 @@ p + h2 {
     transform: scale(1.05);
     box-shadow: 5px 10px 20px #bea2a2; }
 
+.InIndex {
+  font-family: "Source Serif Pro", serif;
+  font-size: 2rem;
+  color: #e0e083;
+  position: relative; }
+
 /* pagina quienes somos.------------------------------------------ */
 #qsom,
 #qmis,
@@ -170,7 +190,9 @@ p + h2 {
     right: 0;
     bottom: 0; }
   .Seccion_correo_importante {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  .InIndex {
+    font-size: 1.5rem; } }
 
 @media screen and (max-width: 800px) {
   #iframe {
