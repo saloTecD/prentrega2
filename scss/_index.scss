@@ -1,11 +1,13 @@
 /* estilos index---------------------------------------------------------------------- */
 #quienesSomos,#porque,#herramientasUtiles {
     
-    border-radius: 10%;
-    background-color: rgba(136, 112, 112, 0.295);
+    border-radius: 5%;
+    background-color: rgba(153, 129, 129, 0.062);
     font-size: 1.5rem;
     font-family: $TipoCont;
     text-align: justify;
+    transition-property: transform;
+    transition-duration: 2s;
     &:hover{
         transform: scale(1.05);
          box-shadow: 5px 10px 20px rgb(190, 162, 162);
@@ -17,4 +19,11 @@
     font-size: 2rem;
     color: rgb(224, 224, 131);
     position: relative;
+}
+.iArtTi{
+    text-align: center;
+    font-weight: bolder
+}
+.referencias{
+    @include citar-referencias;
 }

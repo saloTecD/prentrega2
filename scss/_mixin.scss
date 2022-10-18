@@ -4,3 +4,8 @@
     color: map-get($map-colores,"naranja") !important;
     
 }
+
+@mixin citar-referencias {
+    font-size: small;
+    text-align:center;
+}
