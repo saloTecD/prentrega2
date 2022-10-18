@@ -1,8 +1,5 @@
 /* Uso de Extend---------------------------------------------------------------------- */
-.estilo-basico, #qsom,
-#qmis,
-#qvis,
-#qaquien {
+.estilo-basico {
   font-family: "DynaPuff", cursive;
   text-align: justify; }
 
@@ -171,11 +168,9 @@ p + h2 {
   text-align: center; }
 
 /* pagina quienes somos.------------------------------------------ */
-#qsom,
-#qmis,
-#qvis,
-#qaquien {
-  background-color: rgba(9, 117, 9, 0.363); }
+#tQsomos {
+  background-image: url(../assets/images/qSomosTitulo.jpg);
+  color: white; }
 
 #Timg {
   opacity: 0.5; }
