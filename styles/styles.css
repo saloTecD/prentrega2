@@ -43,7 +43,7 @@
 
 #banner::before {
   content: "";
-  background-image: url(../assets/images/bckindextop.gif);
+  background-image: url(../assets/images/bckindextop.webp);
   background-size: cover;
   opacity: 0.9;
   position: absolute;
@@ -95,7 +95,7 @@ footer {
   text-align: justify; }
 
 .bCont1 {
-  background-image: url("../assets/images/Blog_email_background3.png");
+  background-image: url("../assets/images/Blog_email_background3.webp");
   background-repeat: no-repeat;
   background-size: cover;
   color: white; }
@@ -124,7 +124,7 @@ p + h2 {
 #H_Titulo {
   text-align: justify;
   font-size: 1.5rem;
-  background-image: url(../assets/images/Herramientas_digitalaes.jpg); }
+  background-image: url(../assets/images/Herramientas_digitalaes.webp); }
 
 #H_TituloCont {
   font-family: "DynaPuff", cursive;
@@ -187,7 +187,7 @@ p + h2 {
 
 /* pagina quienes somos.------------------------------------------ */
 #tQsomos {
-  background-image: url(../assets/images/qSomosTitulo.jpg);
+  background-image: url(../assets/images/qSomosTitulo.webp);
   color: white; }
 
 #Timg {
