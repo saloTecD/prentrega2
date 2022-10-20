@@ -17,6 +17,9 @@
     
 }
 
+.textoCarrusel{
+    color: map-get($map-colores,"dorado");
+}
 .Card_custom{
     font-family: $TipoCont;
     text-decoration: none;

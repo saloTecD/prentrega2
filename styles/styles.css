@@ -79,6 +79,9 @@ footer {
   font-family: "DynaPuff", cursive;
   text-align: justify; }
 
+.textoCarrusel {
+  color: darkgoldenrod; }
+
 .Card_custom {
   font-family: "DynaPuff", cursive;
   text-decoration: none;
