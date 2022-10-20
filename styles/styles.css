@@ -234,10 +234,7 @@ p + h2 {
 
 /* estilo contacto---------------------------------------------------------------------- */
 #form_cont {
-  background-color: antiquewhite; }
-
-#cont_body {
-  height: 100vh; }
+  background-color: #eeedb4; }
 
 /* medias querys................................................................. */
 @media screen and (max-width: 450px) {
