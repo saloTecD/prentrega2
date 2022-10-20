@@ -3,3 +3,28 @@
     background-color: rgb(238, 237, 180);
 }
 
+.fa {
+    
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius:50%
+  }
+  .fa-facebook {
+    background: #6a768f;
+    color: white;
+  } 
+  .fa-twitter {
+    background: #6a768f;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #6a768f;
+    color: white;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}

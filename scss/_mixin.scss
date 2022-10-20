@@ -1,7 +1,7 @@
 @mixin foot-head{
     background-image: linear-gradient(10deg, map-get($map-colores,"amarillo"), map-get($map-colores,"gris"), map-get($map-colores,"gris"),map-get($map-colores,"amarillo"));
     position: sticky;
-    color: map-get($map-colores,"naranja") !important;
+    color: map-get($map-colores,"naranja");
     
 }
 

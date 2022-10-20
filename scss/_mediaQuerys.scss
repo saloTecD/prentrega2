@@ -12,6 +12,15 @@
      #quienesSomos,#porque,#herramientasUtiles{
          font-size: 0.3rem;
      }
+     .fa{
+        padding: 0px;
+        font-size: 7px;
+        width: 25px;
+        margin: 1px 0px;
+     }
+     .foot_style{
+        font-size: small;
+     }
 }
 
 @media screen and (max-width: 650px) {
@@ -45,6 +54,15 @@
     #quienesSomos,#porque,#herramientasUtiles{
         font-size: 0.5rem;
     }
+    .fa{
+        padding: 0px;
+        font-size: 7px;
+        width: 25px;
+        margin: 1px 0px;
+     }
+     .foot_style{
+        font-size:small;
+     }
 }
 
 

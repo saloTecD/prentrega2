@@ -7,7 +7,7 @@
 #encabezado {
   background-image: linear-gradient(10deg, yellow, #242424, #242424, yellow);
   position: sticky;
-  color: rgba(255, 136, 0, 0.877) !important;
+  color: rgba(255, 136, 0, 0.877);
   top: 0;
   z-index: 10; }
 
@@ -56,14 +56,15 @@
 footer {
   background-image: linear-gradient(10deg, yellow, #242424, #242424, yellow);
   position: sticky;
-  color: rgba(255, 136, 0, 0.877) !important;
+  color: rgba(255, 136, 0, 0.877);
   left: 0;
   right: 0;
   bottom: 0;
   height: 5vh;
   width: 100%;
   overflow: hidden;
-  z-index: 10; }
+  z-index: 10;
+  color: white; }
 
 /* pagina blog---------------------------------------------------------------------- */
 #B_SubT {
@@ -236,12 +237,43 @@ p + h2 {
 #form_cont {
   background-color: #eeedb4; }
 
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa-facebook {
+  background: #6a768f;
+  color: white; }
+
+.fa-twitter {
+  background: #6a768f;
+  color: white; }
+
+.fa-linkedin {
+  background: #6a768f;
+  color: white; }
+
+.fa:hover {
+  opacity: 0.7; }
+
 /* medias querys................................................................. */
 @media screen and (max-width: 450px) {
   .InIndex {
     font-size: 0.7rem; }
   #quienesSomos, #porque, #herramientasUtiles {
-    font-size: 0.3rem; } }
+    font-size: 0.3rem; }
+  .fa {
+    padding: 0px;
+    font-size: 7px;
+    width: 25px;
+    margin: 1px 0px; }
+  .foot_style {
+    font-size: small; } }
 
 @media screen and (max-width: 650px) {
   .h_logo {
@@ -262,7 +294,14 @@ p + h2 {
   .InIndex {
     font-size: 1rem; }
   #quienesSomos, #porque, #herramientasUtiles {
-    font-size: 0.5rem; } }
+    font-size: 0.5rem; }
+  .fa {
+    padding: 0px;
+    font-size: 7px;
+    width: 25px;
+    margin: 1px 0px; }
+  .foot_style {
+    font-size: small; } }
 
 @media screen and (max-width: 800px) {
   #iframe {
