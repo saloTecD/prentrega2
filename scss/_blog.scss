@@ -6,7 +6,7 @@
     text-align: center;
     align-items: center;
     font-family: $TipoCont;
-    color: map-get($map-colores,"rosa");
+    color: map-get($map-colores,"dorado");
     margin-bottom: 30px;
 }
 
@@ -24,8 +24,21 @@
 }
 .anchor{
     text-decoration: none;
+    color: rgb(221, 160, 85);
+    font-family: $TipoCont;
+    text-align: justify;
 }
-
+.bCont1{
+    background-image:url("../assets/images/Blog_email_background3.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.styleBtn{
+    opacity: 1;
+    background-image: linear-gradient(90deg, map-get($map-colores,"btn1"), map-get($map-colores,"btn1"), map-get($map-colores,"btn2"),map-get($map-colores,"btn3"),map-get($map-colores,"btn3"));
+    border: none;
+}
 .deco_row_blog{
     background-image: url("../assets/images/correo_imp.jpg");
     background-size:cover;

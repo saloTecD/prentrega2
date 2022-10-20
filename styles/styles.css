@@ -72,7 +72,7 @@ footer {
   text-align: center;
   align-items: center;
   font-family: "DynaPuff", cursive;
-  color: #e2a8b1;
+  color: darkgoldenrod;
   margin-bottom: 30px; }
 
 #BlogContenido {
@@ -85,7 +85,21 @@ footer {
   color: darkgoldenrod; }
 
 .anchor {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #dda055;
+  font-family: "DynaPuff", cursive;
+  text-align: justify; }
+
+.bCont1 {
+  background-image: url("../assets/images/Blog_email_background3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
+
+.styleBtn {
+  opacity: 1;
+  background-image: linear-gradient(90deg, #d6d617, #d6d617, rgba(233, 233, 7, 0.705), rgba(77, 77, 4, 0.705), rgba(77, 77, 4, 0.705));
+  border: none; }
 
 .deco_row_blog {
   background-image: url("../assets/images/correo_imp.jpg");
